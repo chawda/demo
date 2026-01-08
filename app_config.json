@@ -1,0 +1,35 @@
+{
+  "appConfig": {
+    "ios": {
+      "update": {
+        "minimumSupportedVersion": "5.0",
+        "latestVersion": "5.0.4"
+      }
+    }
+  },
+
+  "features": {
+    "checkIn": {
+      "enabled": true,
+      "syncRequired": true
+    },
+    "locationSync": {
+      "enabled": true,
+      "maxPendingCount": 200
+    },
+    "incidentModule": {
+      "enabled": true
+    },
+    "chat": {
+      "enabled": false
+    }
+  },
+
+  "system": {
+    "maintenanceMode": false
+  },
+
+  "userContext": {
+    "role": "responder"
+  }
+}
