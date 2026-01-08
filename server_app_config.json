@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "_comment_schema_version": "Version of this policy schema. Increment only if structure changes.",
+
+  "generated_at_utc": "2026-01-07T12:00:00Z",
+  "_comment_generated_at_utc": "Timestamp when this config was generated. Used for debugging and cache validation.",
+
+  "global": {
+    "grace_offline_hours": 24,
+    "_comment_grace_offline_hours": "If app cannot fetch config, cached config is trusted for these many hours.",
+
+    "default_action_if_unreachable": "ALLOW_WITH_WARNING",
+    "_comment_default_action_if_unreachable": "Behavior if config cannot be fetched and cache expired. Options: ALLOW, ALLOW_WITH_WARNING, FORCE_UPDATE"
+  },
+
+  "platforms": {
+    "ios": {
+      "latest_app_version": "5.0.4",
+      "_comment_latest_app_version": "Newest app version available on App Store.",
+
+      "min_supported_app_version": "5.0.0",
+      "_comment_min_supported_app_version": "Lowest app version allowed to run. Anything below this is blocked.",
+
+      "min_supported_os_version": "16.0",
+      "_comment_min_supported_os_version": "Minimum iOS version required to support the app. Below this is End-of-Life (EOL).",
+
+      "policy": {
+        "when_below_min_app": "FORCE_UPDATE",
+        "_comment_when_below_min_app": "Action when app version < min_supported_app_version. FORCE_UPDATE = hard block.",
+
+        "when_below_min_os": "EOL_BLOCK",
+        "_comment_when_below_min_os": "Action when OS version < min_supported_os_version. EOL_BLOCK = stop app usage.",
+
+        "when_below_latest": "SOFT_UPDATE",
+        "_comment_when_below_latest": "Action when app version < latest_app_version but >= min_supported_app_version."
+      },
+
+      "store": {
+        "url": "itms-apps://apps.apple.com/app/idYOUR_APP_ID",
+        "_comment_url": "Direct App Store deep link used for update redirection."
+      },
+
+      "ui": {
+        "soft_update": {
+          "title": "Update available",
+          "_comment_title": "Title text for soft update prompt.",
+
+          "message": "Version 5.0.4 includes important improvements and fixes. Please update for the best experience.",
+          "_comment_message": "Message shown when update is recommended but not mandatory.",
+
+          "primary_cta": "Update Now",
+          "_comment_primary_cta": "Primary button label.",
+
+          "secondary_cta": "Later",
+          "_comment_secondary_cta": "Secondary button label allowing user to skip."
+        },
+
+        "force_update": {
+          "title": "Update required",
+          "_comment_title": "Title text for force update screen.",
+
+          "message": "This version is no longer supported. Please update to continue using the app.",
+          "_comment_message": "Message shown when update is mandatory.",
+
+          "primary_cta": "Update Now",
+          "_comment_primary_cta": "Only button allowed on force update screen."
+        },
+
+        "eol": {
+          "title": "Device no longer supported",
+          "_comment_title": "Title text for end-of-support screen.",
+
+          "message": "Your device cannot run the latest version of this app. Support for this version has ended.",
+          "_comment_message": "Message shown when OS/device is no longer supported.",
+
+          "primary_cta": "Contact Support",
+          "_comment_primary_cta": "Primary action when device is unsupported.",
+
+          "secondary_cta": "Learn More",
+          "_comment_secondary_cta": "Optional help or documentation link.",
+
+          "support_url": "https://support.yourdomain.com/app-support",
+          "_comment_support_url": "Support or help page URL."
+        }
+      }
+    },
+
+    "android": {
+      "latest_app_version": "5.0.4",
+      "_comment_latest_app_version": "Newest app version available on Play Store.",
+
+      "min_supported_app_version": "5.0.0",
+      "_comment_min_supported_app_version": "Lowest app version allowed to run.",
+
+      "min_supported_os_version": "10",
+      "_comment_min_supported_os_version": "Minimum Android OS version supported (major version or API level).",
+
+      "policy": {
+        "when_below_min_app": "FORCE_UPDATE",
+        "_comment_when_below_min_app": "Block app until user updates.",
+
+        "when_below_min_os": "EOL_BLOCK",
+        "_comment_when_below_min_os": "Block app due to unsupported OS.",
+
+        "when_below_latest": "SOFT_UPDATE",
+        "_comment_when_below_latest": "Show optional update prompt."
+      },
+
+      "store": {
+        "url": "market://details?id=com.your.app",
+        "_comment_url": "Play Store deep link for update."
+      },
+
+      "ui": {
+        "soft_update": {
+          "title": "Update available",
+          "message": "Version 5.0.4 includes important improvements and fixes. Please update for the best experience.",
+          "primary_cta": "Update Now",
+          "secondary_cta": "Later"
+        },
+
+        "force_update": {
+          "title": "Update required",
+          "message": "This version is no longer supported. Please update to continue using the app.",
+          "primary_cta": "Update Now"
+        },
+
+        "eol": {
+          "title": "Device no longer supported",
+          "message": "Your device cannot run the latest version of this app. Support for this version has ended.",
+          "primary_cta": "Contact Support",
+          "secondary_cta": "Learn More",
+          "support_url": "https://support.yourdomain.com/app-support"
+        }
+      }
+    }
+  }
+}
