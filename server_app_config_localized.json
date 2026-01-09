@@ -1,0 +1,297 @@
+{
+  "schema_version": 2,
+  "generated_at_utc": "2026-01-08T12:00:00Z",
+
+  "global": {
+    "grace_offline_hours": 24,
+    "default_action_if_unreachable": "ALLOW_WITH_WARNING"
+  },
+
+  "app_config": {
+    "platforms": {
+      "ios": {
+        "latest_app_version": "5.0.4",
+        "min_supported_app_version": "5.0.0",
+        "min_supported_os_version": "16.0",
+
+        "policy": {
+          "when_below_min_app": "FORCE_UPDATE",
+          "when_below_min_os": "EOL_BLOCK",
+          "when_below_latest": "SOFT_UPDATE"
+        },
+
+        "store": {
+          "url": "itms-apps://apps.apple.com/app/idYOUR_APP_ID"
+        },
+
+        "ui": {
+          "soft_update": {
+            "localized": {
+              "en": {
+                "title": "Update available",
+                "message": "A newer version of the app is available. Please update for the best experience.",
+                "cta": { "primary": "Update Now", "secondary": "Later" }
+              },
+              "es": {
+                "title": "Actualización disponible",
+                "message": "Hay una nueva versión de la aplicación disponible.",
+                "cta": { "primary": "Actualizar ahora", "secondary": "Más tarde" }
+              },
+              "pt": {
+                "title": "Atualização disponível",
+                "message": "Uma nova versão do aplicativo está disponível.",
+                "cta": { "primary": "Atualizar agora", "secondary": "Depois" }
+              },
+              "fr-HT": {
+                "title": "Mizajou disponib",
+                "message": "Gen yon nouvo vèsyon aplikasyon an disponib.",
+                "cta": { "primary": "Mete ajou kounye a", "secondary": "Pita" }
+              },
+              "zh": {
+                "title": "有可用更新",
+                "message": "发现新版本，请更新。",
+                "cta": { "primary": "立即更新", "secondary": "稍后" }
+              },
+              "de": {
+                "title": "Update verfügbar",
+                "message": "Eine neue Version ist verfügbar.",
+                "cta": { "primary": "Jetzt aktualisieren", "secondary": "Später" }
+              },
+              "ru": {
+                "title": "Доступно обновление",
+                "message": "Доступна новая версия приложения.",
+                "cta": { "primary": "Обновить сейчас", "secondary": "Позже" }
+              },
+              "ko": {
+                "title": "업데이트 사용 가능",
+                "message": "새 버전을 사용할 수 있습니다.",
+                "cta": { "primary": "지금 업데이트", "secondary": "나중에" }
+              },
+              "it": {
+                "title": "Aggiornamento disponibile",
+                "message": "È disponibile una nuova versione.",
+                "cta": { "primary": "Aggiorna ora", "secondary": "Più tardi" }
+              },
+              "pl": {
+                "title": "Dostępna aktualizacja",
+                "message": "Dostępna jest nowa wersja aplikacji.",
+                "cta": { "primary": "Aktualizuj teraz", "secondary": "Później" }
+              },
+              "bn": {
+                "title": "আপডেট উপলব্ধ",
+                "message": "অ্যাপটির নতুন সংস্করণ উপলব্ধ।",
+                "cta": { "primary": "এখনই আপডেট করুন", "secondary": "পরে" }
+              },
+              "fr": {
+                "title": "Mise à jour disponible",
+                "message": "Une nouvelle version est disponible.",
+                "cta": { "primary": "Mettre à jour", "secondary": "Plus tard" }
+              },
+              "ar": {
+                "title": "تحديث متوفر",
+                "message": "يتوفر إصدار جديد من التطبيق.",
+                "cta": { "primary": "التحديث الآن", "secondary": "لاحقًا" }
+              },
+              "yi": {
+                "title": "אַפּדייט פאַראַן",
+                "message": "אַ נײַע ווערסיע איז פאַראַן.",
+                "cta": { "primary": "איצט אַפּדייטן", "secondary": "שפּעטער" }
+              },
+              "ur": {
+                "title": "اپ ڈیٹ دستیاب ہے",
+                "message": "ایپ کا نیا ورژن دستیاب ہے۔",
+                "cta": { "primary": "ابھی اپ ڈیٹ کریں", "secondary": "بعد میں" }
+              }
+            }
+          },
+
+          "force_update": {
+            "localized": {
+              "en": {
+                "title": "Update required",
+                "message": "This version of the app is no longer supported. Please update to continue.",
+                "cta": { "primary": "Update Now" }
+              },
+              "es": {
+                "title": "Actualización requerida",
+                "message": "Esta versión ya no es compatible. Actualice para continuar.",
+                "cta": { "primary": "Actualizar ahora" }
+              },
+              "pt": {
+                "title": "Atualização obrigatória",
+                "message": "Esta versão não é mais compatível. Atualize para continuar.",
+                "cta": { "primary": "Atualizar agora" }
+              },
+              "fr-HT": {
+                "title": "Mizajou obligatwa",
+                "message": "Vèsyon sa a pa sipòte ankò. Tanpri mete ajou.",
+                "cta": { "primary": "Mete ajou kounye a" }
+              },
+              "zh": {
+                "title": "需要更新",
+                "message": "此版本不再受支持。请更新以继续使用。",
+                "cta": { "primary": "立即更新" }
+              },
+              "de": {
+                "title": "Update erforderlich",
+                "message": "Diese Version wird nicht mehr unterstützt.",
+                "cta": { "primary": "Jetzt aktualisieren" }
+              },
+              "ru": {
+                "title": "Требуется обновление",
+                "message": "Эта версия больше не поддерживается.",
+                "cta": { "primary": "Обновить сейчас" }
+              },
+              "ko": {
+                "title": "업데이트 필요",
+                "message": "이 버전은 더 이상 지원되지 않습니다.",
+                "cta": { "primary": "지금 업데이트" }
+              },
+              "it": {
+                "title": "Aggiornamento richiesto",
+                "message": "Questa versione non è più supportata.",
+                "cta": { "primary": "Aggiorna ora" }
+              },
+              "pl": {
+                "title": "Wymagana aktualizacja",
+                "message": "Ta wersja nie jest już obsługiwana.",
+                "cta": { "primary": "Aktualizuj teraz" }
+              },
+              "bn": {
+                "title": "আপডেট প্রয়োজন",
+                "message": "এই সংস্করণটি আর সমর্থিত নয়।",
+                "cta": { "primary": "এখনই আপডেট করুন" }
+              },
+              "fr": {
+                "title": "Mise à jour requise",
+                "message": "Cette version n’est plus prise en charge.",
+                "cta": { "primary": "Mettre à jour" }
+              },
+              "ar": {
+                "title": "التحديث مطلوب",
+                "message": "هذا الإصدار لم يعد مدعومًا.",
+                "cta": { "primary": "التحديث الآن" }
+              },
+              "yi": {
+                "title": "אַפּדייט נויטיק",
+                "message": "די ווערסיע ווערט נישט מער געשטיצט.",
+                "cta": { "primary": "איצט אַפּדייטן" }
+              },
+              "ur": {
+                "title": "اپ ڈیٹ ضروری ہے",
+                "message": "یہ ورژن اب سپورٹ نہیں کیا جاتا۔",
+                "cta": { "primary": "ابھی اپ ڈیٹ کریں" }
+              }
+            }
+          },
+
+          "eol": {
+            "localized": {
+              "en": {
+                "title": "Device not supported",
+                "message": "Your device cannot run this app anymore.",
+                "cta": { "primary": "Contact Support", "secondary": "Learn More" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "es": {
+                "title": "Dispositivo no compatible",
+                "message": "Tu dispositivo ya no es compatible con esta aplicación.",
+                "cta": { "primary": "Contactar soporte", "secondary": "Más información" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "pt": {
+                "title": "Dispositivo não suportado",
+                "message": "Seu dispositivo não é mais compatível com este aplicativo.",
+                "cta": { "primary": "Contatar suporte", "secondary": "Saiba mais" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "fr-HT": {
+                "title": "Aparèy pa sipòte",
+                "message": "Aparèy ou a pa sipòte aplikasyon sa a ankò.",
+                "cta": { "primary": "Kontakte sipò", "secondary": "Aprann plis" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "zh": {
+                "title": "设备不受支持",
+                "message": "您的设备无法继续使用此应用。",
+                "cta": { "primary": "联系支持", "secondary": "了解更多" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "de": {
+                "title": "Gerät nicht unterstützt",
+                "message": "Ihr Gerät wird nicht mehr unterstützt.",
+                "cta": { "primary": "Support kontaktieren", "secondary": "Mehr erfahren" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "ru": {
+                "title": "Устройство не поддерживается",
+                "message": "Ваше устройство больше не поддерживается.",
+                "cta": { "primary": "Связаться с поддержкой", "secondary": "Подробнее" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "ko": {
+                "title": "지원되지 않는 기기",
+                "message": "이 기기는 더 이상 지원되지 않습니다.",
+                "cta": { "primary": "지원 문의", "secondary": "자세히 알아보기" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "it": {
+                "title": "Dispositivo non supportato",
+                "message": "Il tuo dispositivo non è più supportato.",
+                "cta": { "primary": "Contatta il supporto", "secondary": "Scopri di più" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "pl": {
+                "title": "Urządzenie nieobsługiwane",
+                "message": "Twoje urządzenie nie jest już obsługiwane.",
+                "cta": { "primary": "Skontaktuj się z pomocą", "secondary": "Dowiedz się więcej" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "bn": {
+                "title": "ডিভাইস সমর্থিত নয়",
+                "message": "আপনার ডিভাইস আর সমর্থিত নয়।",
+                "cta": { "primary": "সাপোর্টে যোগাযোগ করুন", "secondary": "আরও জানুন" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "fr": {
+                "title": "Appareil non pris en charge",
+                "message": "Votre appareil n’est plus pris en charge.",
+                "cta": { "primary": "Contacter le support", "secondary": "En savoir plus" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "ar": {
+                "title": "الجهاز غير مدعوم",
+                "message": "جهازك لم يعد مدعومًا.",
+                "cta": { "primary": "الاتصال بالدعم", "secondary": "معرفة المزيد" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "yi": {
+                "title": "מיטל נישט געשטיצט",
+                "message": "דיין מיטל ווערט נישט מער געשטיצט.",
+                "cta": { "primary": "קאָנטאַקט סופּאָרט", "secondary": "לערן מער" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              },
+              "ur": {
+                "title": "ڈیوائس سپورٹڈ نہیں",
+                "message": "آپ کا ڈیوائس اب سپورٹ نہیں کیا جاتا۔",
+                "cta": { "primary": "سپورٹ سے رابطہ کریں", "secondary": "مزید جانیں" },
+                "support_url": "https://support.yourdomain.com/app-support"
+              }
+            }
+          }
+        }
+      },
+
+      "android": {
+        "_comment": "Included for completeness. Not parsed by iOS client.",
+        "latest_app_version": "5.0.4",
+        "min_supported_app_version": "5.0.0",
+        "min_supported_os_version": "10"
+      }
+    }
+  },
+
+  "features": {
+    "example_feature": { "enabled": false }
+  }
+}
