@@ -4,7 +4,7 @@
       "ios": {
         "latest_app_version": "5.0.3",
         "min_supported_app_version": "5.0",
-        "min_supported_os_version": "27.0",
+        "min_supported_os_version": "16.0",
 
         "ui": {
           "soft_update": {
