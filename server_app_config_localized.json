@@ -268,5 +268,8 @@
         }
       }
     }
+  },
+  "features": {
+    "fifa": { "look_for_fifa_event": true }
   }
 }
