@@ -762,6 +762,6 @@
     }
   },
   "features": {
-    "fifa": { "look_for_fifa_event": true }
+    "fifa": { "look_for_fifa_event": true, "fifa_expiry": "2026-08-01" }
   }
 }
