@@ -5,7 +5,6 @@
         "latest_app_version": "5.0.3",
         "min_supported_app_version": "5.0",
         "min_supported_os_version": "16.0",
-
         "ui": {
           "soft_update": {
             "display_frequency": {
@@ -14,257 +13,750 @@
             },
             "localized": {
               "en": {
-                "title": "Update available",
-                "message": "A newer version of the app is available. Please update for the best experience.",
-                "cta": { "primary": "Update Now", "secondary": "Later" }
+                "title": "Update Available",
+                "message": "A new version is available with important reliability and security improvements. Please update to ensure your alerts and notifications work as expected.",
+                "cta": {
+                  "primary": "Update Now",
+                  "secondary": "Not now"
+                }
               },
               "es": {
-                "title": "Actualización disponible",
-                "message": "Hay una nueva versión de la aplicación disponible.",
-                "cta": { "primary": "Actualizar ahora", "secondary": "Más tarde" }
+                "title": "Actualización Disponible",
+                "message": "Hay una nueva versión disponible con importantes mejoras de confiabilidad y seguridad. Actualiza para asegurar que tus alertas y notificaciones funcionen como se espera.",
+                "cta": {
+                  "primary": "Actualizar ahora",
+                  "secondary": "Ahora no"
+                }
               },
               "pt": {
-                "title": "Atualização disponível",
-                "message": "Uma nova versão do aplicativo está disponível.",
-                "cta": { "primary": "Atualizar agora", "secondary": "Depois" }
+                "title": "Atualização Disponível",
+                "message": "Há uma nova versão disponível com melhorias importantes de confiabilidade e segurança. Atualize para garantir que seus alertas e notificações funcionem como esperado.",
+                "cta": {
+                  "primary": "Atualizar agora",
+                  "secondary": "Agora não"
+                }
               },
               "fr-HT": {
-                "title": "Mizajou disponib",
-                "message": "Gen yon nouvo vèsyon aplikasyon an disponib.",
-                "cta": { "primary": "Mete ajou kounye a", "secondary": "Pita" }
+                "title": "Mizajou Disponib",
+                "message": "Gen yon nouvo vèsyon ki disponib ak amelyorasyon enpòtan pou fyab ak sekirite. Tanpri mete ajou pou asire alèt ak notifikasyon ou yo mache jan yo dwe mache.",
+                "cta": {
+                  "primary": "Mete ajou kounye a",
+                  "secondary": "Pa kounye a"
+                }
               },
               "zh": {
                 "title": "有可用更新",
-                "message": "发现新版本，请更新。",
-                "cta": { "primary": "立即更新", "secondary": "稍后" }
+                "message": "新版本已发布，包含重要的可靠性和安全性改进。请更新以确保您的警报和通知按预期正常工作。",
+                "cta": {
+                  "primary": "立即更新",
+                  "secondary": "暂不更新"
+                }
               },
               "de": {
-                "title": "Update verfügbar",
-                "message": "Eine neue Version ist verfügbar.",
-                "cta": { "primary": "Jetzt aktualisieren", "secondary": "Später" }
+                "title": "Update Verfügbar",
+                "message": "Eine neue Version ist verfügbar und enthält wichtige Verbesserungen bei Zuverlässigkeit und Sicherheit. Bitte aktualisieren Sie, damit Ihre Alarme und Benachrichtigungen wie erwartet funktionieren.",
+                "cta": {
+                  "primary": "Jetzt aktualisieren",
+                  "secondary": "Nicht jetzt"
+                }
               },
               "ru": {
-                "title": "Доступно обновление",
-                "message": "Доступна новая версия приложения.",
-                "cta": { "primary": "Обновить сейчас", "secondary": "Позже" }
+                "title": "Доступно Обновление",
+                "message": "Доступна новая версия с важными улучшениями надежности и безопасности. Пожалуйста, обновите приложение, чтобы ваши оповещения и уведомления работали корректно.",
+                "cta": {
+                  "primary": "Обновить сейчас",
+                  "secondary": "Не сейчас"
+                }
               },
               "ko": {
                 "title": "업데이트 사용 가능",
-                "message": "새 버전을 사용할 수 있습니다.",
-                "cta": { "primary": "지금 업데이트", "secondary": "나중에" }
+                "message": "중요한 안정성과 보안 개선이 포함된 새 버전이 있습니다. 알림과 통지가 정상적으로 작동하도록 업데이트해 주세요.",
+                "cta": {
+                  "primary": "지금 업데이트",
+                  "secondary": "지금은 안 함"
+                }
               },
               "it": {
-                "title": "Aggiornamento disponibile",
-                "message": "È disponibile una nuova versione.",
-                "cta": { "primary": "Aggiorna ora", "secondary": "Più tardi" }
+                "title": "Aggiornamento Disponibile",
+                "message": "È disponibile una nuova versione con importanti miglioramenti di affidabilità e sicurezza. Aggiorna per assicurarti che avvisi e notifiche funzionino come previsto.",
+                "cta": {
+                  "primary": "Aggiorna ora",
+                  "secondary": "Non ora"
+                }
               },
               "pl": {
-                "title": "Dostępna aktualizacja",
-                "message": "Dostępna jest nowa wersja aplikacji.",
-                "cta": { "primary": "Aktualizuj teraz", "secondary": "Później" }
+                "title": "Dostępna Aktualizacja",
+                "message": "Dostępna jest nowa wersja z ważnymi ulepszeniami niezawodności i bezpieczeństwa. Zaktualizuj aplikację, aby mieć pewność, że alerty i powiadomienia działają zgodnie z oczekiwaniami.",
+                "cta": {
+                  "primary": "Aktualizuj teraz",
+                  "secondary": "Nie teraz"
+                }
               },
               "bn": {
                 "title": "আপডেট উপলব্ধ",
-                "message": "অ্যাপটির নতুন সংস্করণ উপলব্ধ।",
-                "cta": { "primary": "এখনই আপডেট করুন", "secondary": "পরে" }
+                "message": "গুরুত্বপূর্ণ নির্ভরযোগ্যতা ও নিরাপত্তা উন্নয়নসহ অ্যাপটির নতুন সংস্করণ উপলব্ধ। আপনার অ্যালার্ট এবং নোটিফিকেশন ঠিকমতো কাজ করছে কিনা নিশ্চিত করতে আপডেট করুন।",
+                "cta": {
+                  "primary": "এখনই আপডেট করুন",
+                  "secondary": "এখন নয়"
+                }
               },
               "fr": {
-                "title": "Mise à jour disponible",
-                "message": "Une nouvelle version est disponible.",
-                "cta": { "primary": "Mettre à jour", "secondary": "Plus tard" }
+                "title": "Mise À Jour Disponible",
+                "message": "Une nouvelle version est disponible avec d’importantes améliorations de fiabilité et de sécurité. Veuillez mettre à jour pour vous assurer que vos alertes et notifications fonctionnent comme prévu.",
+                "cta": {
+                  "primary": "Mettre à jour",
+                  "secondary": "Pas maintenant"
+                }
               },
               "ar": {
                 "title": "تحديث متوفر",
-                "message": "يتوفر إصدار جديد من التطبيق.",
-                "cta": { "primary": "التحديث الآن", "secondary": "لاحقًا" }
+                "message": "يتوفر إصدار جديد يتضمن تحسينات مهمة في الموثوقية والأمان. يُرجى التحديث لضمان عمل التنبيهات والإشعارات كما هو متوقع.",
+                "cta": {
+                  "primary": "التحديث الآن",
+                  "secondary": "ليس الآن"
+                }
               },
               "yi": {
                 "title": "אַפּדייט פאַראַן",
-                "message": "אַ נײַע ווערסיע איז פאַראַן.",
-                "cta": { "primary": "איצט אַפּדייטן", "secondary": "שפּעטער" }
+                "message": "אַ נײַע ווערסיע איז פאַראַן מיט וויכטיקע פֿאַרבעסערונגען אין פאַרלאָזלעכקייט און זיכערהייט. ביטע אַפּדייטן צו מאַכן זיכער אַז דײַנע אַלערטן און אָנזאָגן אַרבעטן ווי געראָטן.",
+                "cta": {
+                  "primary": "איצט אַפּדייטן",
+                  "secondary": "נישט איצט"
+                }
               },
               "ur": {
                 "title": "اپ ڈیٹ دستیاب ہے",
-                "message": "ایپ کا نیا ورژن دستیاب ہے۔",
-                "cta": { "primary": "ابھی اپ ڈیٹ کریں", "secondary": "بعد میں" }
+                "message": "اہم قابلِ اعتماد اور سیکیورٹی بہتریوں کے ساتھ ایپ کا نیا ورژن دستیاب ہے۔ براہِ کرم اپ ڈیٹ کریں تاکہ آپ کے الرٹس اور نوٹیفیکیشنز متوقع طور پر کام کریں۔",
+                "cta": {
+                  "primary": "ابھی اپ ڈیٹ کریں",
+                  "secondary": "ابھی نہیں"
+                }
               }
             }
           },
-
           "force_update": {
             "localized": {
               "en": {
-                "title": "Update required",
-                "message": "This version of the app is no longer supported. Please update to continue.",
-                "cta": { "primary": "Update Now" }
+                "title": "Update Required",
+                "message": "This version of the app is no longer supported. To help ensure reliable emergency alerts and security updates please update to continue. Thank you for your assistance.",
+                "cta": {
+                  "primary": "Update Now"
+                }
               },
               "es": {
-                "title": "Actualización requerida",
-                "message": "Esta versión ya no es compatible. Actualice para continuar.",
-                "cta": { "primary": "Actualizar ahora" }
+                "title": "Actualización Requerida",
+                "message": "Esta versión de la aplicación ya no es compatible. Para ayudar a garantizar alertas de emergencia confiables y actualizaciones de seguridad, actualiza para continuar. Gracias por tu ayuda.",
+                "cta": {
+                  "primary": "Actualizar ahora"
+                }
               },
               "pt": {
-                "title": "Atualização obrigatória",
-                "message": "Esta versão não é mais compatível. Atualize para continuar.",
-                "cta": { "primary": "Atualizar agora" }
+                "title": "Atualização Obrigatória",
+                "message": "Esta versão do aplicativo não é mais suportada. Para ajudar a garantir alertas de emergência confiáveis e atualizações de segurança, atualize para continuar. Obrigado(a) pela sua ajuda.",
+                "cta": {
+                  "primary": "Atualizar agora"
+                }
               },
               "fr-HT": {
-                "title": "Mizajou obligatwa",
-                "message": "Vèsyon sa a pa sipòte ankò. Tanpri mete ajou.",
-                "cta": { "primary": "Mete ajou kounye a" }
+                "title": "Mizajou Obligatwa",
+                "message": "Vèsyon aplikasyon sa a pa sipòte ankò. Pou ede asire alèt ijans ki fyab ak mizajou sekirite, tanpri mete ajou pou kontinye. Mèsi pou èd ou.",
+                "cta": {
+                  "primary": "Mete ajou kounye a"
+                }
               },
               "zh": {
                 "title": "需要更新",
-                "message": "此版本不再受支持。请更新以继续使用。",
-                "cta": { "primary": "立即更新" }
+                "message": "此版本的应用已不再受支持。为帮助确保可靠的紧急警报和安全更新，请更新后继续使用。感谢您的配合。",
+                "cta": {
+                  "primary": "立即更新"
+                }
               },
               "de": {
-                "title": "Update erforderlich",
-                "message": "Diese Version wird nicht mehr unterstützt.",
-                "cta": { "primary": "Jetzt aktualisieren" }
+                "title": "Update Erforderlich",
+                "message": "Diese App-Version wird nicht mehr unterstützt. Um zuverlässige Notfallalarme und Sicherheitsupdates zu gewährleisten, aktualisieren Sie bitte, um fortzufahren. Vielen Dank für Ihre Unterstützung.",
+                "cta": {
+                  "primary": "Jetzt aktualisieren"
+                }
               },
               "ru": {
-                "title": "Требуется обновление",
-                "message": "Эта версия больше не поддерживается.",
-                "cta": { "primary": "Обновить сейчас" }
+                "title": "Требуется Обновление",
+                "message": "Эта версия приложения больше не поддерживается. Чтобы обеспечить надежные экстренные оповещения и обновления безопасности, пожалуйста, обновите приложение для продолжения работы. Спасибо за содействие.",
+                "cta": {
+                  "primary": "Обновить сейчас"
+                }
               },
               "ko": {
                 "title": "업데이트 필요",
-                "message": "이 버전은 더 이상 지원되지 않습니다.",
-                "cta": { "primary": "지금 업데이트" }
+                "message": "이 앱 버전은 더 이상 지원되지 않습니다. 신뢰할 수 있는 긴급 알림과 보안 업데이트를 위해 계속 사용하려면 업데이트해 주세요. 협조해 주셔서 감사합니다.",
+                "cta": {
+                  "primary": "지금 업데이트"
+                }
               },
               "it": {
-                "title": "Aggiornamento richiesto",
-                "message": "Questa versione non è più supportata.",
-                "cta": { "primary": "Aggiorna ora" }
+                "title": "Aggiornamento Richiesto",
+                "message": "Questa versione dell’app non è più supportata. Per contribuire a garantire avvisi di emergenza affidabili e aggiornamenti di sicurezza, aggiorna per continuare. Grazie per la collaborazione.",
+                "cta": {
+                  "primary": "Aggiorna ora"
+                }
               },
               "pl": {
-                "title": "Wymagana aktualizacja",
-                "message": "Ta wersja nie jest już obsługiwana.",
-                "cta": { "primary": "Aktualizuj teraz" }
+                "title": "Wymagana Aktualizacja",
+                "message": "Ta wersja aplikacji nie jest już obsługiwana. Aby pomóc zapewnić niezawodne alerty awaryjne i aktualizacje bezpieczeństwa, zaktualizuj aplikację, aby kontynuować. Dziękujemy za współpracę.",
+                "cta": {
+                  "primary": "Aktualizuj teraz"
+                }
               },
               "bn": {
                 "title": "আপডেট প্রয়োজন",
-                "message": "এই সংস্করণটি আর সমর্থিত নয়।",
-                "cta": { "primary": "এখনই আপডেট করুন" }
+                "message": "অ্যাপটির এই সংস্করণটি আর সমর্থিত নয়। নির্ভরযোগ্য জরুরি অ্যালার্ট এবং নিরাপত্তা আপডেট নিশ্চিত করতে, চালিয়ে যেতে অনুগ্রহ করে আপডেট করুন। আপনার সহযোগিতার জন্য ধন্যবাদ।",
+                "cta": {
+                  "primary": "এখনই আপডেট করুন"
+                }
               },
               "fr": {
-                "title": "Mise à jour requise",
-                "message": "Cette version n’est plus prise en charge.",
-                "cta": { "primary": "Mettre à jour" }
+                "title": "Mise À Jour Requise",
+                "message": "Cette version de l’application n’est plus prise en charge. Pour aider à garantir des alertes d’urgence fiables et des mises à jour de sécurité, veuillez mettre à jour pour continuer. Merci pour votre aide.",
+                "cta": {
+                  "primary": "Mettre à jour"
+                }
               },
               "ar": {
                 "title": "التحديث مطلوب",
-                "message": "هذا الإصدار لم يعد مدعومًا.",
-                "cta": { "primary": "التحديث الآن" }
+                "message": "هذا الإصدار من التطبيق لم يعد مدعومًا. للمساعدة في ضمان تنبيهات طوارئ موثوقة وتحديثات أمان، يُرجى التحديث للمتابعة. شكرًا لتعاونك.",
+                "cta": {
+                  "primary": "التحديث الآن"
+                }
               },
               "yi": {
                 "title": "אַפּדייט נויטיק",
-                "message": "די ווערסיע ווערט נישט מער געשטיצט.",
-                "cta": { "primary": "איצט אַפּדייטן" }
+                "message": "די ווערסיע פֿון דער אַפּ ווערט נישט מער געשטיצט. צו העלפֿן זיכערstellen פאַרלאָזלעכע נויטפֿאַל־אַלערטן און זיכערהייט־אַפּדייטן, ביטע אַפּדייטן כדי צו ווייטער נוצן. אַ דאַנק פֿאַר אײַער הילף.",
+                "cta": {
+                  "primary": "איצט אַפּדייטן"
+                }
               },
               "ur": {
                 "title": "اپ ڈیٹ ضروری ہے",
-                "message": "یہ ورژن اب سپورٹ نہیں کیا جاتا۔",
-                "cta": { "primary": "ابھی اپ ڈیٹ کریں" }
+                "message": "ایپ کا یہ ورژن اب سپورٹ نہیں کیا جاتا۔ قابلِ اعتماد ہنگامی الرٹس اور سیکیورٹی اپ ڈیٹس کو یقینی بنانے میں مدد کے لیے، جاری رکھنے کے لیے براہِ کرم اپ ڈیٹ کریں۔ آپ کے تعاون کا شکریہ۔",
+                "cta": {
+                  "primary": "ابھی اپ ڈیٹ کریں"
+                }
               }
             }
           },
-
           "eol": {
             "localized": {
               "en": {
-                "title": "Device not supported",
-                "message": "Your device cannot run this app anymore.",
-                "cta": { "primary": "Contact Support", "secondary": "Learn More" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "title": "Device Not Supported",
+                "message": "This device's operating system is no longer supported and needs to be updated to the latest version. To help maintain reliability and security this app cannot run on this device until the operating system of the phone is updated. Thank you for your assistance.",
+                "cta": {
+                  "primary": "Contact Support",
+                  "secondary": "Learn more"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "es": {
-                "title": "Dispositivo no compatible",
-                "message": "Tu dispositivo ya no es compatible con esta aplicación.",
-                "cta": { "primary": "Contactar soporte", "secondary": "Más información" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "title": "Dispositivo No Compatible",
+                "message": "El sistema operativo de este dispositivo ya no es compatible y debe actualizarse a la versión más reciente. Para ayudar a mantener la confiabilidad y la seguridad, esta aplicación no puede ejecutarse en este dispositivo hasta que se actualice el sistema operativo del teléfono. Gracias por tu ayuda.",
+                "cta": {
+                  "primary": "Contactar soporte",
+                  "secondary": "Más información"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "pt": {
-                "title": "Dispositivo não suportado",
-                "message": "Seu dispositivo não é mais compatível com este aplicativo.",
-                "cta": { "primary": "Contatar suporte", "secondary": "Saiba mais" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "title": "Dispositivo Não Suportado",
+                "message": "O sistema operacional deste dispositivo não é mais suportado e precisa ser atualizado para a versão mais recente. Para ajudar a manter a confiabilidade e a segurança, este aplicativo não pode ser executado neste dispositivo até que o sistema operacional do telefone seja atualizado. Obrigado(a) pela sua ajuda.",
+                "cta": {
+                  "primary": "Contatar suporte",
+                  "secondary": "Saiba mais"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "fr-HT": {
-                "title": "Aparèy pa sipòte",
-                "message": "Aparèy ou a pa sipòte aplikasyon sa a ankò.",
-                "cta": { "primary": "Kontakte sipò", "secondary": "Aprann plis" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "title": "Aparèy Pa Sipòte",
+                "message": "Sistèm operasyon aparèy sa a pa sipòte ankò e li bezwen mete ajou nan dènye vèsyon an. Pou ede kenbe fyab ak sekirite, aplikasyon sa a pa ka mache sou aparèy sa a jiskaske sistèm operasyon telefòn nan mete ajou. Mèsi pou èd ou.",
+                "cta": {
+                  "primary": "Kontakte sipò",
+                  "secondary": "Aprann plis"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "zh": {
                 "title": "设备不受支持",
-                "message": "您的设备无法继续使用此应用。",
-                "cta": { "primary": "联系支持", "secondary": "了解更多" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "message": "此设备的操作系统已不再受支持，需要更新到最新版本。为帮助维护可靠性和安全性，在手机操作系统更新之前，本应用无法在此设备上运行。感谢您的配合。",
+                "cta": {
+                  "primary": "联系支持",
+                  "secondary": "了解更多"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "de": {
-                "title": "Gerät nicht unterstützt",
-                "message": "Ihr Gerät wird nicht mehr unterstützt.",
-                "cta": { "primary": "Support kontaktieren", "secondary": "Mehr erfahren" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "title": "Gerät Nicht Unterstützt",
+                "message": "Das Betriebssystem dieses Geräts wird nicht mehr unterstützt und muss auf die neueste Version aktualisiert werden. Um Zuverlässigkeit und Sicherheit zu gewährleisten, kann diese App auf diesem Gerät erst ausgeführt werden, wenn das Betriebssystem des Telefons aktualisiert wurde. Vielen Dank für Ihre Unterstützung.",
+                "cta": {
+                  "primary": "Support kontaktieren",
+                  "secondary": "Mehr erfahren"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "ru": {
-                "title": "Устройство не поддерживается",
-                "message": "Ваше устройство больше не поддерживается.",
-                "cta": { "primary": "Связаться с поддержкой", "secondary": "Подробнее" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "title": "Устройство Не Поддерживается",
+                "message": "Операционная система этого устройства больше не поддерживается и должна быть обновлена до последней версии. Чтобы поддерживать надежность и безопасность, приложение не может работать на этом устройстве, пока не будет обновлена операционная система телефона. Спасибо за содействие.",
+                "cta": {
+                  "primary": "Связаться с поддержкой",
+                  "secondary": "Подробнее"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "ko": {
                 "title": "지원되지 않는 기기",
-                "message": "이 기기는 더 이상 지원되지 않습니다.",
-                "cta": { "primary": "지원 문의", "secondary": "자세히 알아보기" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "message": "이 기기의 운영체제는 더 이상 지원되지 않으며 최신 버전으로 업데이트해야 합니다. 안정성과 보안을 유지하기 위해, 휴대폰 운영체제가 업데이트되기 전까지 이 앱은 해당 기기에서 실행할 수 없습니다. 협조해 주셔서 감사합니다.",
+                "cta": {
+                  "primary": "지원 문의",
+                  "secondary": "자세히 알아보기"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "it": {
-                "title": "Dispositivo non supportato",
-                "message": "Il tuo dispositivo non è più supportato.",
-                "cta": { "primary": "Contatta il supporto", "secondary": "Scopri di più" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "title": "Dispositivo Non Supportato",
+                "message": "Il sistema operativo di questo dispositivo non è più supportato e deve essere aggiornato alla versione più recente. Per contribuire a mantenere affidabilità e sicurezza, l’app non può essere eseguita su questo dispositivo finché il sistema operativo del telefono non viene aggiornato. Grazie per la collaborazione.",
+                "cta": {
+                  "primary": "Contatta il supporto",
+                  "secondary": "Scopri di più"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "pl": {
-                "title": "Urządzenie nieobsługiwane",
-                "message": "Twoje urządzenie nie jest już obsługiwane.",
-                "cta": { "primary": "Skontaktuj się z pomocą", "secondary": "Dowiedz się więcej" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "title": "Urządzenie Nieobsługiwane",
+                "message": "System operacyjny tego urządzenia nie jest już obsługiwany i musi zostać zaktualizowany do najnowszej wersji. Aby pomóc utrzymać niezawodność i bezpieczeństwo, aplikacja nie może działać na tym urządzeniu, dopóki system operacyjny telefonu nie zostanie zaktualizowany. Dziękujemy za współpracę.",
+                "cta": {
+                  "primary": "Skontaktuj się z pomocą",
+                  "secondary": "Dowiedz się więcej"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "bn": {
                 "title": "ডিভাইস সমর্থিত নয়",
-                "message": "আপনার ডিভাইস আর সমর্থিত নয়।",
-                "cta": { "primary": "সাপোর্টে যোগাযোগ করুন", "secondary": "আরও জানুন" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "message": "এই ডিভাইসের অপারেটিং সিস্টেমটি আর সমর্থিত নয় এবং সর্বশেষ সংস্করণে আপডেট করতে হবে। নির্ভরযোগ্যতা ও নিরাপত্তা বজায় রাখতে, ফোনের অপারেটিং সিস্টেম আপডেট না হওয়া পর্যন্ত এই অ্যাপটি এই ডিভাইসে চলবে না। আপনার সহযোগিতার জন্য ধন্যবাদ।",
+                "cta": {
+                  "primary": "সাপোর্টে যোগাযোগ করুন",
+                  "secondary": "আরও জানুন"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "fr": {
-                "title": "Appareil non pris en charge",
-                "message": "Votre appareil n’est plus pris en charge.",
-                "cta": { "primary": "Contacter le support", "secondary": "En savoir plus" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "title": "Appareil Non Pris En Charge",
+                "message": "Le système d’exploitation de cet appareil n’est plus pris en charge et doit être mis à jour vers la dernière version. Afin de maintenir la fiabilité et la sécurité, cette application ne peut pas fonctionner sur cet appareil tant que le système d’exploitation du téléphone n’a pas été mis à jour. Merci pour votre aide.",
+                "cta": {
+                  "primary": "Contacter le support",
+                  "secondary": "En savoir plus"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "ar": {
                 "title": "الجهاز غير مدعوم",
-                "message": "جهازك لم يعد مدعومًا.",
-                "cta": { "primary": "الاتصال بالدعم", "secondary": "معرفة المزيد" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "message": "نظام تشغيل هذا الجهاز لم يعد مدعومًا ويجب تحديثه إلى أحدث إصدار. للمساعدة في الحفاظ على الموثوقية والأمان، لا يمكن تشغيل هذا التطبيق على هذا الجهاز حتى يتم تحديث نظام تشغيل الهاتف. شكرًا لتعاونك.",
+                "cta": {
+                  "primary": "الاتصال بالدعم",
+                  "secondary": "معرفة المزيد"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "yi": {
                 "title": "מיטל נישט געשטיצט",
-                "message": "דיין מיטל ווערט נישט מער געשטיצט.",
-                "cta": { "primary": "קאָנטאַקט סופּאָרט", "secondary": "לערן מער" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "message": "דער אָפּעראַציע־סיסטעם פֿון דעם מיטל ווערט נישט מער געשטיצט און דאַרף ווערן אַפּדייטיד צו דער נײַסטער ווערסיע. צו העלפֿן האַלטן פאַרלאָזלעכקייט און זיכערהייט, קען די אַפּ נישט לויפן אויף דעם מיטל ביז דער טעלעפאָן־אָפּעראַציע־סיסטעם ווערט אַפּדייטיד. אַ דאַנק פֿאַר אײַער הילף.",
+                "cta": {
+                  "primary": "קאָנטאַקט סופּאָרט",
+                  "secondary": "לערן מער"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               },
               "ur": {
                 "title": "ڈیوائس سپورٹڈ نہیں",
-                "message": "آپ کا ڈیوائس اب سپورٹ نہیں کیا جاتا۔",
-                "cta": { "primary": "سپورٹ سے رابطہ کریں", "secondary": "مزید جانیں" },
-                "support_url": "https://support.yourdomain.com/app-support"
+                "message": "اس ڈیوائس کا آپریٹنگ سسٹم اب سپورٹ نہیں کیا جاتا اور اسے تازہ ترین ورژن پر اپ ڈیٹ کرنا ضروری ہے۔ قابلِ اعتماد کارکردگی اور سیکیورٹی برقرار رکھنے میں مدد کے لیے، فون کا آپریٹنگ سسٹم اپ ڈیٹ ہونے تک یہ ایپ اس ڈیوائس پر نہیں چل سکتی۔ آپ کے تعاون کا شکریہ۔",
+                "cta": {
+                  "primary": "سپورٹ سے رابطہ کریں",
+                  "secondary": "مزید جانیں"
+                },
+                "support_url": "https://www.saferwatchapp.com/help-customer-support/"
               }
             }
           }
+        }
+      },
+      "android": {
+        "latest_app_version": "5.0.4",
+        "min_supported_app_version": "5.0.0",
+        "min_supported_os_version": "29",
+        "eol": [
+          {
+            "lng_abr": "en",
+            "title": "Device Not Supported",
+            "message": "This device's operating system is no longer supported and needs to be updated to the latest version. To help maintain reliability and security this app cannot run on this device until the operating system of the phone is updated. Thank you for your assistance.",
+            "primary": "Contact Support",
+            "secondary": "Learn more",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "es",
+            "title": "Dispositivo No Compatible",
+            "message": "El sistema operativo de este dispositivo ya no es compatible y debe actualizarse a la versión más reciente. Para ayudar a mantener la confiabilidad y la seguridad, esta aplicación no puede ejecutarse en este dispositivo hasta que se actualice el sistema operativo del teléfono. Gracias por tu ayuda.",
+            "primary": "Contactar soporte",
+            "secondary": "Más información",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "pt",
+            "title": "Dispositivo Não Suportado",
+            "message": "O sistema operacional deste dispositivo não é mais suportado e precisa ser atualizado para a versão mais recente. Para ajudar a manter a confiabilidade e a segurança, este aplicativo não pode ser executado neste dispositivo até que o sistema operacional do telefone seja atualizado. Obrigado(a) pela sua ajuda.",
+            "primary": "Contatar suporte",
+            "secondary": "Saiba mais",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "fr-HT",
+            "title": "Aparèy Pa Sipòte",
+            "message": "Sistèm operasyon aparèy sa a pa sipòte ankò e li bezwen mete ajou nan dènye vèsyon an. Pou ede kenbe fyab ak sekirite, aplikasyon sa a pa ka mache sou aparèy sa a jiskaske sistèm operasyon telefòn nan mete ajou. Mèsi pou èd ou.",
+            "primary": "Kontakte sipò",
+            "secondary": "Aprann plis",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "zh",
+            "title": "设备不受支持",
+            "message": "此设备的操作系统已不再受支持，需要更新到最新版本。为帮助维护可靠性和安全性，在手机操作系统更新之前，本应用无法在此设备上运行。感谢您的配合。",
+            "primary": "联系支持",
+            "secondary": "了解更多",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "de",
+            "title": "Gerät Nicht Unterstützt",
+            "message": "Das Betriebssystem dieses Geräts wird nicht mehr unterstützt und muss auf die neueste Version aktualisiert werden. Um Zuverlässigkeit und Sicherheit zu gewährleisten, kann diese App auf diesem Gerät erst ausgeführt werden, wenn das Betriebssystem des Telefons aktualisiert wurde. Vielen Dank für Ihre Unterstützung.",
+            "primary": "Support kontaktieren",
+            "secondary": "Mehr erfahren",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "ru",
+            "title": "Устройство Не Поддерживается",
+            "message": "Операционная система этого устройства больше не поддерживается и должна быть обновлена до последней версии. Чтобы поддерживать надежность и безопасность, приложение не может работать на этом устройстве, пока не будет обновлена операционная система телефона. Спасибо за содействие.",
+            "primary": "Связаться с поддержкой",
+            "secondary": "Подробнее",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "ko",
+            "title": "지원되지 않는 기기",
+            "message": "이 기기의 운영체제는 더 이상 지원되지 않으며 최신 버전으로 업데이트해야 합니다. 안정성과 보안을 유지하기 위해, 휴대폰 운영체제가 업데이트되기 전까지 이 앱은 해당 기기에서 실행할 수 없습니다. 협조해 주셔서 감사합니다.",
+            "primary": "지원 문의",
+            "secondary": "자세히 알아보기",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "it",
+            "title": "Dispositivo Non Supportato",
+            "message": "Il sistema operativo di questo dispositivo non è più supportato e deve essere aggiornato alla versione più recente. Per contribuire a mantenere affidabilità e sicurezza, l’app non può essere eseguita su questo dispositivo finché il sistema operativo del telefono non viene aggiornato. Grazie per la collaborazione.",
+            "primary": "Contatta il supporto",
+            "secondary": "Scopri di più",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "pl",
+            "title": "Urządzenie Nieobsługiwane",
+            "message": "System operacyjny tego urządzenia nie jest już obsługiwany i musi zostać zaktualizowany do najnowszej wersji. Aby pomóc utrzymać niezawodność i bezpieczeństwo, aplikacja nie może działać na tym urządzeniu, dopóki system operacyjny telefonu nie zostanie zaktualizowany. Dziękujemy za współpracę.",
+            "primary": "Skontaktuj się z pomocą",
+            "secondary": "Dowiedz się więcej",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "bn",
+            "title": "ডিভাইস সমর্থিত নয়",
+            "message": "এই ডিভাইসের অপারেটিং সিস্টেমটি আর সমর্থিত নয় এবং সর্বশেষ সংস্করণে আপডেট করতে হবে। নির্ভরযোগ্যতা ও নিরাপত্তা বজায় রাখতে, ফোনের অপারেটিং সিস্টেম আপডেট না হওয়া পর্যন্ত এই অ্যাপটি এই ডিভাইসে চলবে না। আপনার সহযোগিতার জন্য ধন্যবাদ।",
+            "primary": "সাপোর্টে যোগাযোগ করুন",
+            "secondary": "আরও জানুন",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "fr",
+            "title": "Appareil Non Pris En Charge",
+            "message": "Le système d’exploitation de cet appareil n’est plus pris en charge et doit être mis à jour vers la dernière version. Afin de maintenir la fiabilité et la sécurité, cette application ne peut pas fonctionner sur cet appareil tant que le système d’exploitation du téléphone n’a pas été mis à jour. Merci pour votre aide.",
+            "primary": "Contacter le support",
+            "secondary": "En savoir plus",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "ar",
+            "title": "الجهاز غير مدعوم",
+            "message": "نظام تشغيل هذا الجهاز لم يعد مدعومًا ويجب تحديثه إلى أحدث إصدار. للمساعدة في الحفاظ على الموثوقية والأمان، لا يمكن تشغيل هذا التطبيق على هذا الجهاز حتى يتم تحديث نظام تشغيل الهاتف. شكرًا لتعاونك.",
+            "primary": "الاتصال بالدعم",
+            "secondary": "معرفة المزيد",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "yi",
+            "title": "מיטל נישט געשטיצט",
+            "message": "דער אָפּעראַציע־סיסטעם פֿון דעם מיטל ווערט נישט מער געשטיצט און דאַרף ווערן אַפּדייטיד צו דער נײַסטער ווערסיע. צו העלפֿן האַלטן פאַרלאָזלעכקייט און זיכערהייט, קען די אַפּ נישט לויפן אויף דעם מיטל ביז דער טעלעפאָן־אָפּעראַציע־סיסטעם ווערט אַפּדייטיד. אַ דאַנק פֿאַר אײַער הילף.",
+            "primary": "קאָנטאַקט סופּאָרט",
+            "secondary": "לערן מער",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "ur",
+            "title": "ڈیوائس سپورٹڈ نہیں",
+            "message": "اس ڈیوائس کا آپریٹنگ سسٹم اب سپورٹ نہیں کیا جاتا اور اسے تازہ ترین ورژن پر اپ ڈیٹ کرنا ضروری ہے۔ قابلِ اعتماد کارکردگی اور سیکیورٹی برقرار رکھنے میں مدد کے لیے، فون کا آپریٹنگ سسٹم اپ ڈیٹ ہونے تک یہ ایپ اس ڈیوائس پر نہیں چل سکتی۔ آپ کے تعاون کا شکریہ۔",
+            "primary": "سپورٹ سے رابطہ کریں",
+            "secondary": "مزید جانیں",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          }
+        ],
+        "force_update": [
+          {
+            "lng_abr": "en",
+            "title": "Update Required",
+            "message": "This version of the app is no longer supported. To help ensure reliable emergency alerts and security updates please update to continue. Thank you for your assistance.",
+            "primary": "Update Now",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "es",
+            "title": "Actualización Requerida",
+            "message": "Esta versión de la aplicación ya no es compatible. Para ayudar a garantizar alertas de emergencia confiables y actualizaciones de seguridad, actualiza para continuar. Gracias por tu ayuda.",
+            "primary": "Actualizar ahora",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "pt",
+            "title": "Atualização Obrigatória",
+            "message": "Esta versão do aplicativo não é mais suportada. Para ajudar a garantir alertas de emergência confiáveis e atualizações de segurança, atualize para continuar. Obrigado(a) pela sua ajuda.",
+            "primary": "Atualizar agora",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "fr-HT",
+            "title": "Mizajou Obligatwa",
+            "message": "Vèsyon aplikasyon sa a pa sipòte ankò. Pou ede asire alèt ijans ki fyab ak mizajou sekirite, tanpri mete ajou pou kontinye. Mèsi pou èd ou.",
+            "primary": "Mete ajou kounye a",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "zh",
+            "title": "需要更新",
+            "message": "此版本的应用已不再受支持。为帮助确保可靠的紧急警报和安全更新，请更新后继续使用。感谢您的配合。",
+            "primary": "立即更新",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "de",
+            "title": "Update Erforderlich",
+            "message": "Diese App-Version wird nicht mehr unterstützt. Um zuverlässige Notfallalarme und Sicherheitsupdates zu gewährleisten, aktualisieren Sie bitte, um fortzufahren. Vielen Dank für Ihre Unterstützung.",
+            "primary": "Jetzt aktualisieren",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "ru",
+            "title": "Требуется Обновление",
+            "message": "Эта версия приложения больше не поддерживается. Чтобы обеспечить надежные экстренные оповещения и обновления безопасности, пожалуйста, обновите приложение для продолжения работы. Спасибо за содействие.",
+            "primary": "Обновить сейчас",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "ko",
+            "title": "업데이트 필요",
+            "message": "이 앱 버전은 더 이상 지원되지 않습니다. 신뢰할 수 있는 긴급 알림과 보안 업데이트를 위해 계속 사용하려면 업데이트해 주세요. 협조해 주셔서 감사합니다.",
+            "primary": "지금 업데이트",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "it",
+            "title": "Aggiornamento Richiesto",
+            "message": "Questa versione dell’app non è più supportata. Per contribuire a garantire avvisi di emergenza affidabili e aggiornamenti di sicurezza, aggiorna per continuare. Grazie per la collaborazione.",
+            "primary": "Aggiorna ora",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "pl",
+            "title": "Wymagana Aktualizacja",
+            "message": "Ta wersja aplikacji nie jest już obsługiwana. Aby pomóc zapewnić niezawodne alerty awaryjne i aktualizacje bezpieczeństwa, zaktualizuj aplikację, aby kontynuować. Dziękujemy za współpracę.",
+            "primary": "Aktualizuj teraz",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "bn",
+            "title": "আপডেট প্রয়োজন",
+            "message": "অ্যাপটির এই সংস্করণটি আর সমর্থিত নয়। নির্ভরযোগ্য জরুরি অ্যালার্ট এবং নিরাপত্তা আপডেট নিশ্চিত করতে, চালিয়ে যেতে অনুগ্রহ করে আপডেট করুন। আপনার সহযোগিতার জন্য ধন্যবাদ।",
+            "primary": "এখনই আপডেট করুন",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "fr",
+            "title": "Mise À Jour Requise",
+            "message": "Cette version de l’application n’est plus prise en charge. Pour aider à garantir des alertes d’urgence fiables et des mises à jour de sécurité, veuillez mettre à jour pour continuer. Merci pour votre aide.",
+            "primary": "Mettre à jour",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "ar",
+            "title": "التحديث مطلوب",
+            "message": "هذا الإصدار من التطبيق لم يعد مدعومًا. للمساعدة في ضمان تنبيهات طوارئ موثوقة وتحديثات أمان، يُرجى التحديث للمتابعة. شكرًا لتعاونك.",
+            "primary": "التحديث الآن",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "yi",
+            "title": "אַפּדייט נויטיק",
+            "message": "די ווערסיע פֿון דער אַפּ ווערט נישט מער געשטיצט. צו העלפֿן זיכערstellen פאַרלאָזלעכע נויטפֿאַל־אַלערטן און זיכערהייט־אַפּדייטן, ביטע אַפּדייטן כדי צו ווייטער נוצן. אַ דאַנק פֿאַר אײַער הילף.",
+            "primary": "איצט אַפּדייטן",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          },
+          {
+            "lng_abr": "ur",
+            "title": "اپ ڈیٹ ضروری ہے",
+            "message": "ایپ کا یہ ورژن اب سپورٹ نہیں کیا جاتا۔ قابلِ اعتماد ہنگامی الرٹس اور سیکیورٹی اپ ڈیٹس کو یقینی بنانے میں مدد کے لیے، جاری رکھنے کے لیے براہِ کرم اپ ڈیٹ کریں۔ آپ کے تعاون کا شکریہ۔",
+            "primary": "ابھی اپ ڈیٹ کریں",
+            "secondary": "",
+            "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+          }
+        ],
+        "soft_update": {
+          "type": "every_n_launches",
+          "value": 4,
+          "localized": [
+            {
+              "lng_abr": "en",
+              "title": "Update Available",
+              "message": "A new version is available with important reliability and security improvements. Please update to ensure your alerts and notifications work as expected.",
+              "primary": "Update Now",
+              "secondary": "Not now",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "es",
+              "title": "Actualización Disponible",
+              "message": "Hay una nueva versión disponible con importantes mejoras de confiabilidad y seguridad. Actualiza para asegurar que tus alertas y notificaciones funcionen como se espera.",
+              "primary": "Actualizar ahora",
+              "secondary": "Ahora no",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "pt",
+              "title": "Atualização Disponível",
+              "message": "Há uma nova versão disponível com melhorias importantes de confiabilidade e segurança. Atualize para garantir que seus alertas e notificações funcionem como esperado.",
+              "primary": "Atualizar agora",
+              "secondary": "Agora não",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "fr-HT",
+              "title": "Mizajou Disponib",
+              "message": "Gen yon nouvo vèsyon ki disponib ak amelyorasyon enpòtan pou fyab ak sekirite. Tanpri mete ajou pou asire alèt ak notifikasyon ou yo mache jan yo dwe mache.",
+              "primary": "Mete ajou kounye a",
+              "secondary": "Pa kounye a",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "zh",
+              "title": "有可用更新",
+              "message": "新版本已发布，包含重要的可靠性和安全性改进。请更新以确保您的警报和通知按预期正常工作。",
+              "primary": "立即更新",
+              "secondary": "暂不更新",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "de",
+              "title": "Update Verfügbar",
+              "message": "Eine neue Version ist verfügbar und enthält wichtige Verbesserungen bei Zuverlässigkeit und Sicherheit. Bitte aktualisieren Sie, damit Ihre Alarme und Benachrichtigungen wie erwartet funktionieren.",
+              "primary": "Jetzt aktualisieren",
+              "secondary": "Nicht jetzt",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "ru",
+              "title": "Доступно Обновление",
+              "message": "Доступна новая версия с важными улучшениями надежности и безопасности. Пожалуйста, обновите приложение, чтобы ваши оповещения и уведомления работали корректно.",
+              "primary": "Обновить сейчас",
+              "secondary": "Не сейчас",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "ko",
+              "title": "업데이트 사용 가능",
+              "message": "중요한 안정성과 보안 개선이 포함된 새 버전이 있습니다. 알림과 통지가 정상적으로 작동하도록 업데이트해 주세요.",
+              "primary": "지금 업데이트",
+              "secondary": "지금은 안 함",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "it",
+              "title": "Aggiornamento Disponibile",
+              "message": "È disponibile una nuova versione con importanti miglioramenti di affidabilità e sicurezza. Aggiorna per assicurarti che avvisi e notifiche funzionino come previsto.",
+              "primary": "Aggiorna ora",
+              "secondary": "Non ora",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "pl",
+              "title": "Dostępna Aktualizacja",
+              "message": "Dostępna jest nowa wersja z ważnymi ulepszeniami niezawodności i bezpieczeństwa. Zaktualizuj aplikację, aby mieć pewność, że alerty i powiadomienia działają zgodnie z oczekiwaniami.",
+              "primary": "Aktualizuj teraz",
+              "secondary": "Nie teraz",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "bn",
+              "title": "আপডেট উপলব্ধ",
+              "message": "গুরুত্বপূর্ণ নির্ভরযোগ্যতা ও নিরাপত্তা উন্নয়নসহ অ্যাপটির নতুন সংস্করণ উপলব্ধ। আপনার অ্যালার্ট এবং নোটিফিকেশন ঠিকমতো কাজ করছে কিনা নিশ্চিত করতে আপডেট করুন।",
+              "primary": "এখনই আপডেট করুন",
+              "secondary": "এখন নয়",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "fr",
+              "title": "Mise À Jour Disponible",
+              "message": "Une nouvelle version est disponible avec d’importantes améliorations de fiabilité et de sécurité. Veuillez mettre à jour pour vous assurer que vos alertes et notifications fonctionnent comme prévu.",
+              "primary": "Mettre à jour",
+              "secondary": "Pas maintenant",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "ar",
+              "title": "تحديث متوفر",
+              "message": "يتوفر إصدار جديد يتضمن تحسينات مهمة في الموثوقية والأمان. يُرجى التحديث لضمان عمل التنبيهات والإشعارات كما هو متوقع.",
+              "primary": "التحديث الآن",
+              "secondary": "ليس الآن",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "yi",
+              "title": "אַפּדייט פאַראַן",
+              "message": "אַ נײַע ווערסיע איז פאַראַן מיט וויכטיקע פֿאַרבעסערונגען אין פאַרלאָזלעכקייט און זיכערהייט. ביטע אַפּדייטן צו מאַכן זיכער אַז דײַנע אַלערטן און אָנזאָגן אַרבעטן ווי געראָטן.",
+              "primary": "איצט אַפּדייטן",
+              "secondary": "נישט איצט",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            },
+            {
+              "lng_abr": "ur",
+              "title": "اپ ڈیٹ دستیاب ہے",
+              "message": "اہم قابلِ اعتماد اور سیکیورٹی بہتریوں کے ساتھ ایپ کا نیا ورژن دستیاب ہے۔ براہِ کرم اپ ڈیٹ کریں تاکہ آپ کے الرٹس اور نوٹیفیکیشنز متوقع طور پر کام کریں۔",
+              "primary": "ابھی اپ ڈیٹ کریں",
+              "secondary": "ابھی نہیں",
+              "support_url": "https://www.saferwatchapp.com/help-customer-support/"
+            }
+          ]
         }
       }
     }
